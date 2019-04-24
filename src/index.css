@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+.profile-area p{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button:hover{
+  background-color: black
+}
+.button {
+  width: 300px;
+  height:480px
+}
+
+.changeTypeButton{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border-width: 1px;
+  color:#DDDDDD;
+  background-color:#242840;
+  font-family: '微軟正黑體';
+}
+.changeTypeButton:hover{
+  background-color:#242850;
+  color: white;
+  cursor: grab;
+}
+.changeTypeButton:focus{
+  background-color:#242850;
+  color: white;
+}
+
+/* 下面是註冊頁面的style */
+
+h2.profile-title {
+  margin: 0;
+  margin-bottom: 1rem;
+  color: #333;
+  /* border-left: solid 5px #2E282A;
+  padding-left: .5rem; */
+}
+
+.profile-area {
+  width: 30%;
+  padding: 1rem 1.2rem;
+  font-weight: bold;
+  background-color: rgba(246, 246, 246, 1);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin: 1rem 1rem;
+  margin-top: 2rem;
+  transition: all .2s;
+}
+
+.profile-area:hover {
+  background-color: rgba(246, 246, 246, .7);
+}
+
+label {
+  display: block;
+  font-weight: normal;
+  margin-bottom: .2rem;
+}
+
+input {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  width: 100%;
+  padding: .25rem .5rem;
+  margin-bottom: .5rem;
+  color: #333;
+}
+
+button {
+  border: 1px solid #ddd;
+  padding: .5rem 1rem;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-size: 16px;
+  transition: all .2s;
+}
+
+button:hover {
+  background-color: #222222;
+  cursor: pointer;
+}
+.newChangeColor:hover{
+  color:#2196F3;
+  cursor: grab;
+}
+a:visited {
+  color:#363636;
+}
+.bookingButton{
+  background: #2196F3;
+   border:0;
+    margin: 0 10px;
+    width:100px
+}
+.bookingButton:hover {
+  background: rgb(3, 122, 219);
+   cursor: pointer;
+}
