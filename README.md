@@ -1,3 +1,8 @@
+##### 將專案下載下來後 先在專案內執行 npm install。
+##### 在執行 npm start 稍作等待後便會於瀏覽器呈現專案網頁。
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
